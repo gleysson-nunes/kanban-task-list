@@ -1,0 +1,11 @@
+.l-container {
+    margin: 1rem auto;
+    width: 90%;
+}
+
+.l-header {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: var(--bglists); 
+}
+

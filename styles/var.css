@@ -1,0 +1,10 @@
+:root {
+    --primaryfont: 'Nunito Sans', sans-serif;
+    --body: bisque;
+    --bgprofile: #fcd7a6;
+    --bglists: burlywood;
+    --bgtodo: #fd4400;
+    --bgdoing: darkseagreen;
+    --bgtesting: rgb(26, 155, 241);
+    --bgdone: green; 
+}

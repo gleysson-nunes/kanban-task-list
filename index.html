@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kanban-style task list">
+    <meta name="keywords" content="kanban, task, list">
+    <meta name="author" content="Gleysson Nunes">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/module.css">
+    <link rel="stylesheet" href="styles/var.css">
+    <link rel="stylesheet" href="styles/imports.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body> 
+    <div class="l-container">
+        
+        <header class="l-header">
+           
+            <div class="l-header__personal__data">
+                <img class="m-header__photo__profile" src="images/profile.svg" alt="Profile">
+                <p class="m-header__name">James Miller</p>
+                <p class="m-header__profession">Product Manager</p>
+                <input class="buttons" type="button" value="Settings">
+                <input class="buttons" type="button" value="Logout">
+            </div>
+         
+            <div class="l-header__my__lists">
+                <p class="l-header__my__to__do__lists">My to do lists <img class="icon" src="images/plus.svg" alt="Plus"></p>
+                <p class="l-header_products">Products <img class="icon" src="images/arrow.svg" alt="Arrow down"></p>
+                <p class="l-header__products__lists">Products for companies</p>
+                <p class="l-header__products__lists">Products for people <img class="icon" src="images/arrow.svg" alt="Arrow"></p>
+                <p  class="l-header__products__lists l-header__products__lists--no__hover l-header__products__lists--green">Virtual Manager Wallet <img class="icon" src="images/wallet.svg" alt="Wallet"></p>
+            </div>
+        </header>
+
+            <main class="l-main">
+
+                <div class="todo m-main__container m-main__container--orange ">
+                    <h2 class="m-main__title">To Do</h2>
+                    <a class="m-main__link m-main__link--orange m-main__link--hover m-main__link--hover--orange" href="#">1. Passwords Vault</a>
+                    <a class="m-main__link m-main__link--orange m-main__link--hover m-main__link--hover--orange" href="#">2. Digital Signature</a>
+                    <a class="m-main__link m-main__link--orange m-main__link--hover m-main__link--hover--orange" href="#">3. Security Certificate</a>
+                </div>
+
+                <div class="doing m-main__container m-main__container--darkseagreen">
+                    <h2 class="m-main__title">Doing</h2>
+                   <a class="m-main__link m-main__link--darkseagreen m-main__link--hover m-main__link--hover--darkseagreen" href="#">1.  Personal Dashboard</a>
+                   <a class="m-main__link m-main__link--darkseagreen m-main__link--hover m-main__link--hover--darkseagreen" href="#">2. API Federal Reserve</a>
+                </div>
+
+                <div class="testing m-main__container m-main__container--blue">
+                    <h2 class="m-main__title ">Testing</h2>
+                    <a class="m-main__link m-main__link--blue m-main__link--hover m-main__link--hover--blue" href="#">1. Dark Theme</a>
+                    <a class="m-main__link m-main__link--blue m-main__link--hover m-main__link--hover--blue" href="#">2. SQL Database</a>
+                </div>
+
+                <div class="done m-main__container m-main__container--green">
+                    <h2 class="m-main__title" >Done</h2>
+                   <a class="m-main__link m-main__link--green m-main__link--hover m-main__link--hover--green" href="#">1. Credit Cards</a>
+                   <a class="m-main__link m-main__link--green m-main__link--hover m-main__link--hover--green" href="#">2. Bitcoin Card</a>
+                   <a class="m-main__link m-main__link--green m-main__link--hover m-main__link--hover--green" href="#">3. Settings Painel</a>
+                </div>
+            </main>
+    </div>
+</body>
+</html>
